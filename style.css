@@ -54,7 +54,6 @@
 		- Pagination
 		- Comments
 	- Sidebars
-	- Footer Widgets
 	- Site Footer
 	- Theme Colors
 		- Streamline Pro Blue
@@ -1880,66 +1879,6 @@ Sidebars
 	text-shadow: -1px -1px #555;
 }
 
-
-/*
-Footer Widgets
----------------------------------------------------------------------------------------------------- */
-
-.footer-widgets {
-	background-color: #1e1e1e;
-	color: #aaa;
-	clear: both;
-	padding: 40px 0 16px;
-	text-shadow: -1px -1px #000;
-}
-
-.footer-widgets-1,
-.footer-widgets-3 {
-	width: 350px;
-}
-
-.footer-widgets-2 {
-	width: 360px;
-}
-
-.footer-widgets-1 {
-	margin-right: 40px;
-}
-
-.footer-widgets-1,
-.footer-widgets-2 {
-	float: left;
-}
-
-.footer-widgets-3 {
-	float: right;
-}
-
-.footer-widgets .widget {
-	margin-bottom: 24px;
-}
-
-.footer-widgets .widget-title {
-	color: #aaa;
-}
-
-.footer-widgets .widget-title::before {
-	color: #aaa;
-	content: '//';
-	margin-right: 12px;
-}
-
-.footer-widgets li {
-	list-style-type: none;
-	margin-bottom: 6px;
-	word-wrap: break-word;
-}
-
-.footer-widgets .search-form input:focus {
-	border: 1px solid #ccc;
-}
-
-
 /*
 Site Footer
 ---------------------------------------------------------------------------------------------------- */
@@ -2058,17 +1997,7 @@ Media Queries
 	.sidebar-primary {
 		width: 340px;
 	}
-	
-	.footer-widgets-1,
-	.footer-widgets-2,
-	.footer-widgets-3 {
-		width: 300px;
-	}
-	
-	.footer-widgets-1 {
-		margin-right: 30px;
-	}
-	
+
 	.genesis-nav-menu li.right {
 		display: none;
 	}
@@ -2085,9 +2014,6 @@ Media Queries
 	}
 
 	.content,
-	.footer-widgets-1,
-	.footer-widgets-2,
-	.footer-widgets-3,
 	.home-featured-1,
 	.home-featured-2,
 	.home-featured-3,
@@ -2145,15 +2071,6 @@ Media Queries
 	.entry-footer .entry-meta {
 		margin: 0;
 		padding-top: 12px;
-	}
-
-	.footer-widgets {
-		padding: 40px;
-	}
-
-	.footer-widgets-1,
-	.site-inner {
-		margin: 0 auto;
 	}
 	
 	.site-footer {
@@ -2274,7 +2191,7 @@ Media Queries
 @media only screen and (min-width: 768px) {
 
 	body {
-		background: url('images/background3.jpg') fixed left top;
+		background: url('images/background.jpg') fixed left top;
 		background-size: cover;
 	}
 
