@@ -1284,11 +1284,11 @@ Slider Styles
 	
 	.home-featured .widget {
 		padding: 100px;
-		min-height: 670px;
+		min-height: 550px;
 	}
 
 	.postcard-back {
-		height: 425px;
+		height: 344px;
 		width: 560px;
 		position: relative;
 		background-color: #fff;
@@ -1324,6 +1324,11 @@ Slider Styles
 }
 
 @media only screen and (min-width: 1024px) {
+
+	.home-featured .widget {
+		min-height: 670px;
+	}
+
 	.postcard-back {
 		height: 454px;
 		width: 765px;
