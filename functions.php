@@ -140,8 +140,6 @@ function remove_titles_all_single_pages() {
     }
 }
 
-
-
 //* Relocate after entry widget
 remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
 add_action( 'genesis_entry_footer', 'genesis_after_entry_widget_area' );
