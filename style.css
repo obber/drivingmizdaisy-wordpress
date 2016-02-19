@@ -1009,8 +1009,14 @@ Site Header
 
 .header-image .site-title a {
 	float: left;
-	min-height: 75px;
+	height: 50px;
 	width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+	.header-image .site-title a {
+		min-height: 75px;
+	}	
 }
 
 .header-image .site-title a:hover {
