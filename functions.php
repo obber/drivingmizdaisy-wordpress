@@ -140,11 +140,7 @@ function remove_titles_all_single_pages() {
     }
 }
 
-//* Add support for 3-column footer widgets
-add_theme_support( 'genesis-footer-widgets', 1 );
 
-//* Add support for after entry widget
-add_theme_support( 'genesis-after-entry-widget-area' );
 
 //* Relocate after entry widget
 remove_action( 'genesis_after_entry', 'genesis_after_entry_widget_area' );
