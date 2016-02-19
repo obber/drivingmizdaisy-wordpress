@@ -164,7 +164,7 @@ function custom_footer_kan() {
 	return '<div class="custom-footer-text">
 	Find us on <a href="https://www.instagram.com/drivingmizdaisy/">Instagram</a> & <a href="https://www.facebook.com/drivingmizdaisy">Facebook</a>
 	<hr>
-	Managed with <span style="color:#FF7A62;">&hearts;</span> by Char & Shelly
+	Managed with <span style="color:#ff6b50;">&hearts;</span> by Char & Shelly
 	</div>';
 }
 
