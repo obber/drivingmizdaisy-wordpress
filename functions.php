@@ -31,6 +31,9 @@ function streamline_load_scripts() {
 
 }
 
+//* Add custom shortcodes
+include('lib/shortcodes.php');
+
 //* Add new image sizes
 add_image_size( 'post-image', 760, 360, TRUE );
 add_image_size( 'widget-image', 295, 100, TRUE );
@@ -181,6 +184,3 @@ function custom_footer_kan() {
 //* Stop Contact Form 7 CSS from loading
 //* Styles are inside of theme's style.css instead
 add_filter( 'wpcf7_load_css', '__return_false' );
-
-//* Add custom shortcodes
-include('shortcodes.php');
