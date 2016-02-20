@@ -43,6 +43,22 @@ genesis_unregister_layout( 'sidebar-sidebar-content' );
 //* Unregister secondary sidebar
 unregister_sidebar( 'sidebar-alt' );
 
+/**
+ * Remove Genesis Page Templates
+ *
+ * @author Bill Erickson
+ * @link http://www.billerickson.net/remove-genesis-page-templates
+ *
+ * @param array $page_templates
+ * @return array
+ */
+function be_remove_genesis_page_templates( $page_templates ) {
+	unset( $page_templates['page_archive.php'] );
+	unset( $page_templates['page_blog.php'] );
+	return $page_templates;
+}
+add_filter( 'theme_page_templates', 'be_remove_genesis_page_templates' );
+
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
 	'header_image'    => '',
@@ -147,8 +163,8 @@ add_action( 'genesis_entry_footer', 'genesis_after_entry_widget_area' );
 //* Register widget areas
 genesis_register_sidebar( array(
 	'id'          => 'home-featured-1',
-	'name'        => __( 'Home - Featured 1', 'streamline' ),
-	'description' => __( 'This is the first featured column on the homepage.', 'streamline' ),
+	'name'        => __( 'Home - Featured', 'streamline' ),
+	'description' => __( 'This is the main homepage featured section. Intended to be used with "Image Slider Lite" plugin.', 'streamline' ),
 ) );
 
 //* Modify Footer Copyright Text
