@@ -1,15 +1,7 @@
 <?php
 
 /**
- *  Layout Shortcodes
- *
- *  Custom shortcodes that use bootstrap's floating layout containers.
- * 
- *  @Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
- */
-
-/**
- *  Notice Boxes
+ *  Notice Boxes Shortcodes
  *
  */
 function noticeContainer($params, $content = null) {
@@ -27,22 +19,32 @@ function noticeContainer($params, $content = null) {
 add_shortcode('notice', 'noticeContainer');
 
 /**
- *  Blue Image Border
+ *  Image Border Shortcodes
  *
  */
-function blueBorder($params, $content = null) {
+function imageBorder($params, $content = null) {
 
   // default parameters
   extract(shortcode_atts(array(
-    'align' => ''
+    'align' => '',
+    'color' => ''
     ), $params));
 
   return
-    '<div class="blue-image-border'
+    '<div class="image-border'
+    . ($color == '' ? '">' : " $color-border")
     . ($align == '' ? '">' : " align$align\">")
     . do_shortcode($content) . "</div>";
 }
-add_shortcode('image-border', 'blueBorder');
+add_shortcode('image-border', 'imageBorder');
+
+/**
+ *  Layout Shortcodes
+ *
+ *  Custom shortcodes that use bootstrap's floating layout containers.
+ * 
+ *  @Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+ */
 
 /**
  *  Clearfix
