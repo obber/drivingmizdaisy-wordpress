@@ -59,7 +59,7 @@
 		- max-width: 1159px
 		- max-width: 1023px
 		- max-width: 767px
-
+		
 */
 
 
@@ -1262,6 +1262,7 @@ Slider Styles
 	.card-4 {
 		transform: rotate(-3deg);
 	}
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -1274,6 +1275,7 @@ Slider Styles
 		height: 454px;
 		width: 765px;
 	}
+
 }
 
 /*
@@ -1291,6 +1293,7 @@ Ornaments on Home Featured Section
 }
 
 @media only screen and (min-width: 768px) {
+
 	.post-it {
 		width: 212px;
 		height: 193px;
@@ -1766,10 +1769,6 @@ li.depth-6 {
 Sidebars
 ---------------------------------------------------------------------------------------------------- */
 
-.sidebar {
-
-}
-
 .sidebar li {
 	list-style-type: none;
 	margin-bottom: 6px;
@@ -1853,7 +1852,6 @@ Site Footer
 .site-footer a {
 	color: #4DD3C4;
 }
-
 
 /* Landing Page Styles
 ---------------------------------------------------------------------------------------------------- */
