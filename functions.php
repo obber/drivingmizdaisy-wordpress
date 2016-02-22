@@ -34,9 +34,6 @@ function streamline_load_scripts() {
 //* Add custom shortcodes
 include('lib/shortcodes.php');
 
-//* Add custom post type
-include('lib/post-types.php');
-
 //* Add new image sizes
 add_image_size( 'post-image', 760, 360, TRUE );
 add_image_size( 'widget-image', 295, 100, TRUE );
