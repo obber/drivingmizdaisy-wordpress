@@ -1,6 +1,15 @@
 <?php
 
 /**
+ *  Text Centering Shortcode
+ *
+ */
+function centerText($params, $content = null) {
+  return '<div class="center-text">' . do_shortcode($content) . "</div>";
+}
+add_shortcode('center', 'centerText');
+
+/**
  *  Notice Boxes Shortcodes
  *
  */

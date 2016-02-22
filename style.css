@@ -594,6 +594,10 @@ Structure and Layout
 	display: none;
 }
 
+.center-text {
+	text-align: center;
+}
+
 /*
 Common Classes
 ---------------------------------------------------------------------------------------------------- */
