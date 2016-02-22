@@ -1283,8 +1283,8 @@ Ornaments on Home Featured Section
 --------------------------------------------- */
 
 .post-it {
-	width: 172px;
-	height: 155px;
+	width: 200px;
+	height: 179px;
 	background: url('images/post-it.png') no-repeat 0 0;
 	background-size: cover;
 	position: relative;
@@ -1295,8 +1295,8 @@ Ornaments on Home Featured Section
 @media only screen and (min-width: 768px) {
 
 	.post-it {
-		width: 212px;
-		height: 193px;
+		width: 230px;
+		height: 205px;
 		position: absolute;
 		z-index:999;
 		left: 10px;
@@ -1304,14 +1304,14 @@ Ornaments on Home Featured Section
 	}
 
 	.note {
-		width: 416px;
-		height: 302px;
+		width: 401px;
+		height: 301px;
 		background: url('images/note.png') no-repeat 0 0;
 		background-size: cover;
 		position: absolute;
 		z-index:2;
 		right: 2%;
-		bottom: -15px;
+		bottom: -10px;
 	}
 
 	.market {
@@ -1337,13 +1337,13 @@ Ornaments on Home Featured Section
 	}
 
 	.paperclip {
-		width: 34px;
-		height: 78px;
+		width: 288px;
+		height: 75px;
 		background: url('images/paperclip.png') no-repeat 0 0;
 		z-index:1000;
 		position: absolute;
-		top: 91px;
-		left: 48%;
+		top: 89px;
+		left: 29.8%;
 	}
 
 }
@@ -1351,13 +1351,19 @@ Ornaments on Home Featured Section
 @media only screen and (min-width: 1024px) {
 
 	.post-it {
-		left: 6%;
-		top: 20px;
+		width: 290px;
+		height: 259px;
+		left: 4%;
+		top: 13px;
 	}
 
 	.note {
 		right: 5%;
-		bottom: -15px;
+		bottom: -10px;
+	}
+
+	.paperclip {
+		left: 35.8%;
 	}
 
 }
