@@ -794,9 +794,14 @@ img.alignright,
 
 .after-entry .widget-title::before,
 .sidebar .widget-title::before {
-	content: '//';
-	color: #5CBDB6;
-	margin-right: 12px;
+	content: '';
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url('images/star.png');
+	margin-right: 15px;
+	position: relative;
+	top: 4px;
 }
 
 .archive-title {
