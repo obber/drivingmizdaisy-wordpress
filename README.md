@@ -1,5 +1,8 @@
 # DrivingMizDaisy WordPress Theme
 
+You can see the working website here:
+http://drivingmizdaisy.com/
+
 This Wordpress Genesis Child theme is a derivative of StudioPress' Streamline Pro Child Theme:
 http://my.studiopress.com/themes/streamline/
 
