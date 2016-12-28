@@ -47,7 +47,7 @@ function streamline_homepage_widgets() {
 										<div class="note"></div>
 										<div class="vintage"></div>
 										<div class="market"></div>
-										<div class="paperclip"></div>
+										<!--<div class="paperclip"></div>-->
 										<div class="postcard-wrapper">
 											<div class="postcard-back card-1">
 												<div class="postcard-back card-2">
