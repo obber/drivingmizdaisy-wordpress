@@ -879,7 +879,7 @@ Site Header
 ---------------------------------------------------------------------------------------------------- */
 
 .site-header {
-	background: #FF6B50 url('images/polka-dot-pattern.png') repeat -16px -16px;
+	background: #699a96 url('https://www.thecoastvintagemarket.com/wp-content/uploads/2017/06/shell-pattern-bg.png');
 	margin: 0 auto;
 	max-width: 1140px;
 	padding: 25px;
@@ -1107,12 +1107,13 @@ Site Navigation
 .nav-primary .wrap {
 	background-color: #fff;
 	color: #999;
+    text-align: center;
 }
 
 .nav-primary .genesis-nav-menu .menu-item > a {
-	padding: 18px 10px 15px 68px;
+	padding: 18px 10px 15px 20px;
 	position: relative;
-	background: url('images/nav-icon.png') no-repeat 28px 16px;
+	/* background: url('images/nav-icon.png') no-repeat 28px 16px; */
 }
 
 /* Secondary Navigation
@@ -1832,7 +1833,7 @@ Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
 .site-footer {
-	background: #5CBDB6 url('images/polka-dot-pattern.png') repeat -16px -16px;
+	background: #699a96 url('https://www.thecoastvintagemarket.com/wp-content/uploads/2017/06/shell-pattern-bg.png');
 	color: #fff;
 	font-size: 14px;
 	padding: 40px 0;
@@ -2139,7 +2140,7 @@ Media Queries
 @media only screen and (min-width: 768px) {
 
 	body {
-		background: url('images/background.jpg') fixed left top;
+		background: url('https://www.thecoastvintagemarket.com/wp-content/uploads/2017/06/background.jpg') fixed left top;
 		background-size: cover;
 	}
 
