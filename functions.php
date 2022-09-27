@@ -1,4 +1,7 @@
 <?php
+//* Fix MySQL. See https://stackoverflow.com/questions/13825108/undefined-function-mysql-connect.
+include_once('fix_mysql.inc.php');
+
 //* Start the engine
 include_once( get_template_directory() . '/lib/init.php' );
 
